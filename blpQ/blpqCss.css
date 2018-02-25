@@ -6,8 +6,14 @@
 body {
     margin: 0;
     font-family: Arial;
-}
 
+}
+.ox{
+    text-align: auto;
+    width: auto;
+    background-color: antiquewhite;
+
+}
 .header {
     text-align: center;
     padding: 32px;
@@ -15,7 +21,9 @@ body {
 
 }
 
+
 .row {
+    widows: 100px;
     text-align: center;
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -35,6 +43,12 @@ body {
 .column img {
     margin-top: 8px;
     vertical-align: middle;
+    filter: grayscale(100%)
+   
+    
+}
+.column img:hover{
+    filter: grayscale(0%)
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
