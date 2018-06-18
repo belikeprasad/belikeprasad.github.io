@@ -42,8 +42,20 @@ img{
 		
 		height:205px;
 		width:205px;
-		border:2px dashed rgb(255, 255, 255);
+		border:5px dashed rgb(255, 255, 255);
 		position:absolute;
 		left:600px;
 		top: 300px;
+}
+h1{
+	margin: 0%;
+	color: blue;
+	text-align: center;
+	font-size: 85px; 
+}
+p{
+	
+	margin: 0%;
+	text-align: center;
+	font-size: 35px; 
 }
