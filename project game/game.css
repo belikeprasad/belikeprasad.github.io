@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body{
+	width: auto;
+	background: #D9D8D8;
+}
+.box{
+	border: 10px solid black;
+	height: 500px;
+	background-image: url("bg.jpg");
+	
+}
+.theaf{
+		height:700px;
+		width: 80%;
+		/*border: 2px solid black;*/
+		position: absolute;
+		animation-name:move;
+		animation-duration:2.5s;
+		animation-iteration-count:infinite;
+		animation-timing-function: linear;
+		z-index:2;
+		
+}
+.theaf:active{
+		animation-name:move;
+		animation-play-state:paused;
+}
+img{
+	position: relative;
+	top: 300px;
+	height: 200px;
+	width: 200px;
+	
+}
+@keyframes move{
+	from{left:0;}
+	to{left:80%}
+	}
+.CAGE{
+		
+		height:205px;
+		width:205px;
+		border:2px dashed rgb(255, 255, 255);
+		position:absolute;
+		left:600px;
+		top: 300px;
+}
