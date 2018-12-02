@@ -1,0 +1,103 @@
+html{
+    width: 100%;
+    padding: 0%;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    padding: 0%;
+    margin: 0px;
+    height: 100vh;
+    display: table;
+    background: url("img/bg.jpg") ;
+    background-size: cover;
+    
+}
+.containter{
+    width: 50%;
+    /*border: 2px solid white;*/
+    position: absolute;
+    top :25%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    text-align: center;
+}
+.icon{
+
+ list-style: none;
+    font-size: 35px;
+    width: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top :5%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    text-align: center;
+    font-family:"Comic Sans MS", cursive, sans-serif ;
+    color: rgb(178, 253, 72);
+width: 100%;
+background-color: rgb(178, 253, 72, .5);
+vertical-align: middle;
+
+}
+.icon:hover{
+    color: rgb(149, 255, 0);
+
+}
+/***************************/
+.nav{
+    position: absolute;
+    top :15%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: rgb(149, 255, 0,.4);
+}
+/****************************/
+.section{
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+border: 2px solid black;
+background-color: rgba(177, 176, 176, 0.5);
+border-radius: 50px;
+
+
+}
+
+.containter>a{
+    width: 150px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.containter>a:hover{
+    color: rgb(178, 253, 72);
+
+}
+a:active{
+    color: rgb(178, 253, 72);
+
+}
