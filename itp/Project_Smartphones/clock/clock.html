@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>whatsapp App</title>
+        <link rel="stylesheet" href="clock.css">
+
+        <script>
+            setInterval(getTime,1000);
+            function getTime()
+            {
+                var date=new Date();
+              document.getElementById("time").innerHTML=date.toTimeString();
+            }
+    </script>
+    </head>
+    <body>
+        <div class="cover">
+            <p id="time"></p>
+            
+        </div>
+        
+    </body>
+</html>

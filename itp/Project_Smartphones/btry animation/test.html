@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Bttry charging</title>
+        
+    </head>
+    <style>
+    body{
+        background-color: black;
+    }
+    .charging{
+    
+        text-align: center;
+    height: 194px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    top: 167px;
+    left: 38px;
+    animation-name: move;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    vertical-align: middle;
+    font-size: 75;
+    font-weight: 900;
+    }
+    .charging:active{
+		animation-name:move;
+		animation-play-state:paused;
+}
+    
+@keyframes move{
+	from{width:0;}
+	to{width:400px;}
+	}
+    </style>
+    <body>
+        <img src="btry.png" alt="">
+        <div class="charging">Charging</div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>One Plus 5T</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="Theme1/icon.png" type="image/gif" sizes="16x16">
+<script>
+        setInterval(getTime,1000);
+        function getTime()
+        {
+            var date=new Date();
+          document.getElementById("time").innerHTML=date.toTimeString();
+        }
+</script>
+</head>
+
+<body>
+    <img class="smartbody" src="body.png" alt="body">
+    <div class="screen">
+        <div class="notiDiv">
+            <div class="leftnoti "></div>
+                <div class="rightoti">
+                        <div > 
+                            <img class="notiIcon" src="theme1/btry.png" alt="">
+                            <div class="charging notiIcon"></div>
+                        
+                        
+                        
+                        </div>
+                        
+                        <img class="notiIcon" src="theme1/wifi.png" alt="">
+                        <img class="notiIcon" src="theme1/signal.png" alt="">
+                        <div  class="notiIcon " style="width: 47px"> <p id="time"  ></p></div>
+                        <div class="clear"></div>
+                </div>
+        <div class="clear"></div>
+        
+        
+        </div>
+
+        <div class="cntnr">
+            <iframe name="cntnr_main" frameborder="0" height="100%" width="100%"></iframe>
+            
+
+        </div>
+        <div class="btnDiv">
+            <a href="index.html"> <img class="OnScrnBtn" src="theme1/BackBtn.png" alt=""></a>
+            <a href="AppDrwr.html" target="cntnr_main"><img class="OnScrnBtn" src="theme1/HomeBtn.png" alt=""></a>
+            <a href="#"><img class="OnScrnBtn" src="theme1/OptionBtn.png" alt=""></a>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>

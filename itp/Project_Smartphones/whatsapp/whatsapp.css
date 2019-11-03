@@ -1,0 +1,256 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+.whatsapp{
+    
+    width: 80mm;
+    height: 143mm;
+    background-color: white;
+}
+
+
+.green{
+    height: 20%;
+    width: 100%;
+    background-color: #065e52;
+}
+.white{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+}
+.green1{
+    position: relative;
+    height: 50%;
+    float: right;
+}
+.green2{
+    height: 50%;
+    
+    position: relative;
+}
+span{
+    display: block;
+    height: 5px;
+    width: 5;
+    background: white;
+    margin: 4px 0px;
+    border-radius: 50%;
+    
+}
+
+.searchIcn{
+    height: 22px;
+    margin: 4px 10px 0 10;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.pgreen1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    margin-right: 94px;
+    color: white;
+}
+.searchIcn,.pgreen1,.menubtn{
+    padding: 10 10 10 5;
+    float: left;
+
+}
+/************green2*/
+.cam,.chat,.status,.calls{
+    width: 20%;
+    
+    text-align: center;
+    color: rgb(184, 184, 184);
+    float: left;
+    padding: 14 5 13 5;
+    text-transform: uppercase;
+}
+.cam.active,.chat:hover,.status:hover,.calls:hover
+{
+ color: aliceblue;
+ border-bottom: 5px solid white;
+}
+.camImg{
+    height: 25px;
+    width: auto
+}
+
+
+
+/*------------------CHAT---------------------*/
+.user{
+    margin: 6 0;
+}
+.lft,.mdl,.userDP{
+    float: left;
+    height: 44px;
+    padding: 5px 5px 5px 5px;
+}
+.lft,.mdl{
+    border-bottom: 0.5px solid rgba(65, 64, 64, 0.308);
+}
+.userDP{
+    padding: 2px;
+    height: 44px;
+    width: 44px;
+    
+    border-radius: 50%;
+}
+.mdl{
+    color: black;
+    overflow: hidden;
+    
+    width: 195;
+}
+.lft{
+    text-align: center;
+}
+.noMsg{
+    height: 20px;
+    width: 20px;
+    background-color: #4caf50;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+.pName{
+    padding-left: 10px;
+    font-size: 19px;
+}
+.pmsg{
+    padding-left: 10px;
+    font-size: 14px;
+    color: #757575;
+}
+.ptime{
+    
+    font-size: 13px;
+}
+.btndiv{
+    background-color: #4caf50;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    top: 350px;
+    left: 230px;
+    position: absolute;
+}
+.btndivPen{
+    background-color: #eef5f6;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    top: 300px;
+    left: 234px;
+    position: absolute;
+}
+.btndiv:hover{
+    box-shadow: 1px 1px 16px grey;
+}
+btndivPen:hover{
+    box-shadow: 1px 1px 16px grey;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0,0.5);
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+    background: #888888; 
+}
+/***********---------Usergreen-----------------******/
+.Usergreen{
+    height: 10%;
+    width: 100%;
+    background-color: #065e52;
+}
+
+
+.lft,.mdl,.userDP{
+    float: left;
+    height: 44px;
+    padding: 5px 5px 5px 5px;
+}
+
+.userDP{
+    padding: 2px;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+}
+.Usermdl{
+    color: white;;
+    overflow: hidden;
+    
+    width: 100px;
+}
+.lft{
+    text-align: center;
+}
+.userDP,.Usermdl,.UserIcon,.Usermenubtn{
+    margin-top: 3px;
+    float: left;
+}
+.Usermenubtn  {
+    padding: 10 5 10 5;
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+.UserIcon  {
+    padding: 15px 5 10 10px;
+    width: 20px;
+    height: 20px;
+}
+.Usermdl{
+    width: 145px;
+    overflow: hidden;
+}
+.chatbg{
+    background:url(chatbg.png); 
+}
+.abstlicon{
+    padding: 5 5 5 5 ;
+    height: 25px;
+    width: 25px;
+}
+.absltLeft,.absltRight{
+    padding: 0  0 0 5;
+    float: left;
+}
+.absltRight{
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+    background-color: #065e52;
+    border-radius: 50%;
+}
+.absltLeft{
+    
+    background-color: white;
+    border-radius: 5px;
+}
+
+.chatAbslt{
+    position: absolute;
+    top: 489px;
+    left: 10px;
+}
+.typ{
+    margin-top: 7px;
+ vertical-align: top;
+ height: 26px;
+}

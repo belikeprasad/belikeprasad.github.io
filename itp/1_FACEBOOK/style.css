@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    padding: o;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 720px;
+    width: auto;
+}
+.top{
+    background: #476099;
+    height: 14%;
+}
+.mid{
+    background: linear-gradient(white ,#ccd6f1);
+    height: 75%;
+    
+}
+.btm{
+    height: 16%;
+    background: white;
+    border: 2px solid black;
+}
+
+/***************container div ******************/
+.containerTop{
+
+    height:  108px;
+    margin: 0 20% 0 20%  ;
+    /*border: 2px solid black;*/
+}
+
+.containerMid{
+
+    height:  468px;
+    margin: 0 20% 0 20%  ;
+    /*border: 2px solid black;*/
+}
+.containerBtm{
+
+    height:  113px;
+    margin: 0 20% 0 20%  ;
+    border: 2px solid black;
+}
+/***************top div ******************/
+.iconDiv{
+    height:  107px;
+    float: left;
+    width: 50%;
+    /*border: 2px solid black;*/
+
+}
+.usernameDiv{
+     
+    height:  107px;
+    float: left;
+    padding: 25px 10px 20px 0; 
+    /*border: 2px solid black;*/
+   
+}
+.passwordDiv{
+    height:  107px;
+    float: left;
+    padding: 25px 0px 20px 0;
+    /*border: 2px solid black;*/
+
+}
+.LIbtnDiv{
+    height:  107px;
+    float: left;
+    width: 10%;
+    /*border: 2px solid black;*/
+    padding: 45px 10px 20px 7px;
+
+}
+.LIbtn{
+    height: 25px;
+    width: 57px;
+    color: white;
+    background-color: #718bbe;
+}
+.iconFB{
+ height: 100px;;
+    width: auto;
+}
+.ptop{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    color: #ccd6f1;
+}
+.tb{
+    height: 25px; 
+    width: 170px;
+    border: 1px solid black;
+}
+/***************mid div ******************/
+.midRit{
+    position: relative;
+    float: left;
+    width: 45%;
+    /*border: 2px solid black;*/
+    height:  468px;
+}
+.midLft{    
+    margin-top: 10px;
+    position: relative;
+    float: right;
+    width: 50%;
+    /*border: 2px solid black;*/
+    height:  468px;
+   
+
+}
+.midRitP{
+    margin-top: 33px;
+    font-size: 19px;
+    font-style: bold;
+    color:#476099;
+}
+.midRTtxTbX{
+    margin: 7px;
+    margin-left: 0px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    border:1px solid rgb(0, 0, 0,0.5);
+    
+}
+.midLftdiv{
+    padding: 5px;
+}
+#name{
+    
+    width:47%;
+}
+#mob{
+    width: 97%;
+}
+#date{
+    height: 33px;
+    width: 200px;
+}
+.radio{
+    margin: 10px;
+    display: inline;
+    font-size: 23px;
+}
+.psmall{
+    font-size: 12px;
+    color:#646464;
+}
+#Signup{
+    width: 200px;
+    height: 44px;
+    color: white;
+    background-color: #609d4d;
+    border-radius: 5px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+select{margin: 7px;
+    margin-left: 0px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    border:1px solid rgb(0, 0, 0,0.5);
+}
+
+/***************footer ******************/
+ul{
+    list-style: none;
+}
+li{
+    padding-right: 5px;
+    float: left;
+    font-size: 14px;
+}
+a:link{color:#476099; text-decoration: none;}
+a:visited{color:#476099;text-decoration: none;}
+a:active{color:#476099;text-decoration: none;}
+a:hover{
+    text-decoration:underline;
+    color:#476099;}
